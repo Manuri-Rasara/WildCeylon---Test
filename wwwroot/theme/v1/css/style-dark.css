@@ -4780,7 +4780,7 @@ portfolio
 reviews
 
 ------------------------------------------- */
-#review {
+.ReviewClass {
   padding-top: 100px;
 }
 .knd-review {

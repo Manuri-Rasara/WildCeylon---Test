@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KandyCrown.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9813ab9258bbcd4f905fd91b48846a9ddb59f52")]
 [assembly: System.Reflection.AssemblyProductAttribute("KandyCrown.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KandyCrown.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

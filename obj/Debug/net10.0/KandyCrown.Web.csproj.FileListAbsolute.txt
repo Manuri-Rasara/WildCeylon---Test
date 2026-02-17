@@ -116,4 +116,5 @@ C:\Users\User\Desktop\KandyCrown-main\KandyCrown-main\KandyCrown.NetCore\KandyCr
 C:\Users\User\Desktop\KandyCrown-main\KandyCrown-main\KandyCrown.NetCore\KandyCrown.Web\obj\Debug\net10.0\compressed\u0ia4ahk7v-{0}-z8j2aqf9ku-z8j2aqf9ku.gz
 C:\Users\User\Desktop\KandyCrown-main\KandyCrown-main\KandyCrown.NetCore\KandyCrown.Web\obj\Debug\net10.0\compressed\iyokiybvhr-{0}-a723ovdeyh-a723ovdeyh.gz
 C:\Users\User\Desktop\KandyCrown-main\KandyCrown-main\KandyCrown.NetCore\KandyCrown.Web\obj\Debug\net10.0\compressed\7bp84csvh5-{0}-9tn28qmayg-9tn28qmayg.gz
-C:\Users\User\Desktop\KandyCrown-main\KandyCrown-main\KandyCrown.NetCore\KandyCrown.Web\obj\Debug\net10.0\compressed\9vuhj77h20-{0}-y2eygs1z2q-y2eygs1z2q.gz
+C:\Users\User\Desktop\KandyCrown-main\KandyCrown-main\KandyCrown.NetCore\KandyCrown.Web\obj\Debug\net10.0\KandyCrown.Web.sourcelink.json
+C:\Users\User\Desktop\KandyCrown-main\KandyCrown-main\KandyCrown.NetCore\KandyCrown.Web\obj\Debug\net10.0\compressed\9vuhj77h20-{0}-13fd3cri9u-13fd3cri9u.gz
