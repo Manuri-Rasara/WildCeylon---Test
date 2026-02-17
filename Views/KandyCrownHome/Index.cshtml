@@ -1,0 +1,418 @@
+﻿@using KandyCrown.Web.Helpers
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<!-- content -->
+<div id="smooth-content" class="knd-content">
+
+    @Html.RenderAction("Hero", "KandyCrownHome", new { Area = "" })
+
+    <!-- iconboxes -->
+    <div class="knd-p-0-100" id="scroll">
+        <div class="container">
+            <div class="row knd-jcc">
+                <div class="col-sm-8 col-lg-4">
+                    <div class="knd-iconbox knd-tac knd-mb60">
+                        <img src="~/theme/v1/img/home-1/iconbox/first.png" alt="icon" class="knd-mb30 knd-up">
+                        <h4 class="knd-head4 knd-mb30 knd-up">Real Sri Lankan taste, just like home</h4>
+                        <p class="knd-text-md knd-shortened knd-up">Our dishes are prepared using traditional recipes passed down through generations, with carefully balanced spices and authentic cooking methods that bring true Sri Lankan flavors to life.</p>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-lg-4">
+                    <div class="knd-iconbox knd-mb60">
+                        <img src="~/theme/v1/img/home-1/iconbox/second.png" alt="icon" class="knd-mb30 knd-up">
+                        <h4 class="knd-head4 knd-mb30 knd-up">Slow-cooked, never rushed</h4>
+                        <p class="knd-text-md knd-shortened knd-up">Every meal is cooked fresh each day using quality local ingredients and Sri Lankan spices. No shortcuts — just honest food made with time, care, and passion.</p>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-lg-4">
+                    <div class="knd-iconbox knd-tac knd-mb60">
+                        <img src="~/theme/v1/img/home-1/iconbox/third.png" alt="icon" class="knd-mb30 knd-up">
+                        <h4 class="knd-head4 knd-mb30 knd-up">Food served with heart</h4>
+                        <p class="knd-text-md knd-shortened knd-up">We believe great food should come with great hospitality. From the moment you walk in, you’re welcomed like family, with friendly service and a relaxed dining experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- iconboxes end -->
+
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <div class="row knd-jcb">
+                <div class="col-12">
+                    <p class="knd-stylized knd-m2 knd-mb60 knd-up">Our Services</p>
+                    <h2 class="knd-head1 knd-mb90 knd-up">We generate <span class="knd-a1">unique</span> ideas</h2>
+                    <ul class="knd-services-list knd-mb160">
+                        <li class="knd-service-item knd-768-mb60 knd-up">
+                            <div class="knd-item-text knd-mb30">
+                                <h3 class="knd-head3 knd-mb30 knd-up">UI/IX design</h3>
+                                <p class="knd-text-md knd-shortened knd-deco-text knd-max-3row-text knd-up">Design of intuitive and visually appealing user interfaces for web and mobile applications, focusing on enhancing the user experience and usability.</p>
+                            </div>
+                            <div class="knd-mb30 knd-up">
+                                <a href="service-stl.html" class="knd-stylized-btn knd-c-gone">
+                                    <i class="fal fa-arrow-up"></i>
+                                    <span>Read more</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="knd-service-item knd-768-mb60 knd-up">
+                            <div class="knd-item-text knd-mb30">
+                                <h3 class="knd-head3 knd-mb30 knd-up">Brand strategy</h3>
+                                <p class="knd-text-md knd-shortened knd-deco-text knd-max-3row-text knd-up">Comprehensive brand development, including logo creation, color scheme selection, and visual style design to ensure a cohesive and memorable brand identity.</p>
+                            </div>
+                            <div class="knd-mb30 knd-up">
+                                <a href="service-stl.html" class="knd-stylized-btn knd-c-gone">
+                                    <i class="fal fa-arrow-up"></i>
+                                    <span>Read more</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="knd-service-item knd-up">
+                            <div class="knd-item-text knd-mb30">
+                                <h3 class="knd-head3 knd-mb30 knd-up">Marketing and SMM</h3>
+                                <p class="knd-text-md knd-shortened knd-deco-text knd-max-3row-text knd-up">Creation of impactful advertising campaigns and marketing materials designed to increase brand visibility, engage target audiences, and drive customer acquisition.</p>
+                            </div>
+                            <div class="knd-mb30 knd-up">
+                                <a href="service-stl.html" class="knd-stylized-btn knd-c-gone">
+                                    <i class="fal fa-arrow-up"></i>
+                                    <span>Read more</span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services end -->
+
+    
+
+    <!-- call to action -->
+    <div class="container">
+        <div class="knd-half-container knd-stl knd-up">
+            <div class="knd-text-box knd-g-m4 knd-p-160-160">
+                <p class="knd-stylized knd-m2 knd-mb60 knd-up">Who we Are</p>
+                <h2 class="knd-display3 knd-mb60 knd-m1 knd-up">We made <span class="knd-a1">your day</span> <br><span class="knd-a1">Special.</span></h2>
+                <p class="knd-text-md knd-deco-text knd-shortened knd-up">Wild Ceylon is a modern Sri Lankan casual dining restaurant and bar inspired by the island’s rich heritage and bold flavours. We blend authentic Sri Lankan taste with a fresh, contemporary touch in a relaxed, welcoming space.
+Whether it’s a quick meal, after-work drinks, or a celebration with friends, our food, cocktails, and warm hospitality are here to make your day special.</p>
+            </div>
+            <div class="knd-image-box">
+                <div class="knd-image-frame">
+                    <img src="~/theme/v1/img/home-4/Hoppers.png" alt="img" class="knd-scale-img" data-value-1="1.20" data-value-2="1">
+                    <div class="knd-overlay"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row knd-aic knd-jcb knd-no-g">
+            <div class="col-lg-4 knd-992-gone">
+                <p class="knd-text-sm knd-up">Inspired by the spirit of Sri Lanka, its rich culture, bold flavours, and warm hospitality Wild Ceylon brings tradition and modern dining together to create unforgettable experiences.</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="knd-button-pad knd-a2">
+                    <span class="knd-up"><a href="contact-stl.html" class="knd-btn knd-btn-border knd-m1 knd-c-gone">Get in touch</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- call to action end -->
+
+    <!-- about -->
+    <div class="knd-p-160-100" id="about">
+        <div class="container">
+            <div class="row knd-jcb">
+                <div class="col-12">
+                    <p class="knd-stylized knd-m2 knd-mb60 knd-up">About us</p>
+                </div>
+                <div class="col-lg-4">
+                    <h2 class="knd-head1 knd-mb60 knd-up">We Don’t Rush <br><span class="knd-a2">Flavor</span></h2>
+                    <p class="knd-text-sm knd-deco-text knd-mb60 knd-up">At Wild Ceylon, we believe great flavour takes time. Our philosophy is rooted in patience, authenticity, and deep respect for Sri Lanka’s rich culinary traditions. From slow-cooked spices and carefully layered recipes to thoughtfully crafted cocktails, every element is prepared with care and intention.</p>
+                </div>
+                <div class="col-lg-6">
+                    <p class="knd-text-md knd-mb30 knd-up">We don’t rush the experience either. Wild Ceylon is a place where guests can unwind, connect, and savour every moment in a warm, vibrant setting. By blending traditional inspiration with modern creativity, we create dishes and drinks that carry true depth, character, and the unmistakable spirit of Sri Lankan hospitality.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about end -->
+<div class="mainimage">
+    <img src="~/theme/v1/img/shapes/Phi.png" alt="img" class="mainGreyImg" data-value-1="1.20" data-value-2="1">
+</div>
+    <!-- team -->
+    
+    <!-- team end -->
+
+    <!-- reviews -->
+    <div id="reviews">
+        <div class="container">
+            <div class="row knd-jcc">
+                <div class="col-lg-12 knd-tac">
+                    <p class="knd-stylized knd-m2 knd-mb60 knd-up">reviews</p>
+                    <h2 class="knd-head1 knd-mb90 knd-up">Customer Voices: <br>Hear What <span class="knd-a2">They Say</span>!</h2>
+                </div>
+                <div class="col-lg-6 knd-relative">
+                    <div class="swiper-container knd-reviews-slider knd-c-swipe knd-c-dark">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="knd-review" data-swiper-parallax-scale="0.8">
+                                    <div class="knd-portrait knd-mb30 knd-up">
+                                        <img src="~/theme/v1/img/reviews/2.jpg" alt="Client">
+                                    </div>
+                                    <h4 class="knd-head4 knd-max-1row-text knd-mb15 knd-up knd-c-gone">Paul Trueman</h4>
+                                    <p class="knd-stylized knd-m2 knd-mb30 knd-up">Envato market</p>
+                                    <p class="knd-text-lg knd-m1 knd-up">I had the pleasure of working with this creative agency, and I must say, they truly impressed me. They consistently think outside the box, resulting in impressive and impactful work. I highly recommend this agency for their consistent delivery of exceptional creative solutions.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="knd-review" data-swiper-parallax-scale="0.8">
+                                    <div class="knd-portrait knd-mb30 knd-up">
+                                        <img src="~/theme/v1/img/reviews/1.jpg" alt="Client">
+                                    </div>
+                                    <h4 class="knd-head4 knd-max-1row-text knd-mb15 knd-up knd-c-gone">Emma Newman</h4>
+                                    <p class="knd-stylized knd-m2 knd-mb30 knd-up">Envato market</p>
+                                    <p class="knd-text-lg knd-m1 knd-up">This creative agency stands out with their exceptional talent and expertise. Their ability to think outside the box and bring unique ideas to life is truly impressive. With meticulous attention to detail, they consistently deliver visually stunning and impactful work.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="knd-review" data-swiper-parallax-scale="0.8">
+                                    <div class="knd-portrait knd-mb30 knd-up">
+                                        <img src="~/theme/v1/img/reviews/3.jpg" alt="Client">
+                                    </div>
+                                    <h4 class="knd-head4 knd-max-1row-text knd-mb15 knd-up knd-c-gone">Viktoria Freeman</h4>
+                                    <p class="knd-stylized knd-m2 knd-mb30 knd-up">Envato market</p>
+                                    <p class="knd-text-lg knd-m1 knd-up">This creative agency stands out with their exceptional talent and expertise. Their ability to think outside the box and bring unique ideas to life is truly impressive. With meticulous attention to detail, they consistently deliver visually stunning and impactful work.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="knd-review" data-swiper-parallax-scale="0.8">
+                                    <div class="knd-portrait knd-mb30 knd-up">
+                                        <img src="~/theme/v1/img/reviews/4.jpg" alt="Client">
+                                    </div>
+                                    <h4 class="knd-head4 knd-max-1row-text knd-mb15 knd-up knd-c-gone">Oscar Oldman</h4>
+                                    <p class="knd-stylized knd-m2 knd-mb30 knd-up">Envato market</p>
+                                    <p class="knd-text-lg knd-m1 knd-up">I had the pleasure of working with this creative agency, and I must say, they truly impressed me. They consistently think outside the box, resulting in impressive and impactful work. I highly recommend this agency for their consistent delivery of exceptional creative solutions.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="knd-sr-pagination knd-up"></div>
+                    <div class="knd-rs-nav knd-up">
+                        <div class="knd-slider-btn knd-sr-prev knd-c-gone"></div>
+                        <div class="knd-slider-btn knd-sr-next knd-c-gone"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- reviews end -->
+
+    <!-- partners -->
+    @* <div class="knd-p-160-130">
+        <div class="container">
+            <div class="row knd-jcb knd-aic">
+                <div class="col-6 col-md-3 knd-up">
+                    <a href="#." class="knd-partner knd-type-2 knd-stl knd-mb30" target="_blank" data-no-swup>
+                        <img src="~/theme/v1/img/brands/1.png" alt="partner logo">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 knd-up">
+                    <a href="#." class="knd-partner knd-type-2 knd-stl knd-mb30" target="_blank" data-no-swup>
+                        <img src="~/theme/v1/img/brands/2.png" alt="partner logo">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 knd-up">
+                    <a href="#." class="knd-partner knd-type-2 knd-stl knd-mb30" target="_blank" data-no-swup>
+                        <img src="~/theme/v1/img/brands/3.png" alt="partner logo">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 knd-up">
+                    <a href="#." class="knd-partner knd-type-2 knd-stl knd-mb30" target="_blank" data-no-swup>
+                        <img src="~/theme/v1/img/brands/5.png" alt="partner logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div> *@
+    <!-- partners end -->
+
+    <!-- call to action -->
+    <div class="knd-p-0-100">
+        <div class="container knd-relative">
+            <div class="knd-objects">
+                <img src="~/theme/v1/img/shapes/shape1.png" class="knd-obj-1">
+
+            </div>
+            <p class="knd-stylized knd-m2 knd-mb60 knd-tac knd-up">Our Signature Moments</p>
+            <h2 class="knd-head1 knd-rubber knd-tac knd-mb60 knd-up">Step into the world of Wild Ceylon, where bold Sri Lankan flavours, vibrant design, and warm hospitality come together to create  <span class="knd-a1">unforgettable</span> dining and bar experiences.</h2>
+            <div class="knd-text-with-button knd-mb60">
+                <p class="knd-text-sm knd-tar knd-768-tac knd-up">Explore our creations and step in to taste,<br>the rich heritage of Wild Ceylon.</p>
+                <span class="knd-up"><a href="portfolio-1-stl.html" class="knd-btn knd-btn-border knd-m1 knd-c-gone">View portfolio</a></span>
+            </div>
+        </div>
+    </div>
+    <!-- call to action end -->
+
+    <!-- blog -->
+    @* <div class="knd-p-0-160" id="blog">
+        <div class="container">
+            <div class="row knd-aie knd-mb30">
+                <div class="col-md-6">
+                    <p class="knd-stylized knd-m2 knd-mb60 knd-up">Newsletter</p>
+                    <h2 class="knd-head1 knd-mb60 knd-up">Latest from <span class="knd-a2">Blog</span></h2>
+                </div>
+                <div class="col-md-6">
+                    <p class="knd-stylized knd-m1 knd-tar knd-768-tal knd-mb60 knd-up"><a href="blog-stl.html" class="knd-arrow-link knd-c-gone">View all publications</a></p>
+                </div>
+            </div>
+            <div class="swiper-container knd-blog-slider">
+                <div class="swiper-wrapper knd-c-swipe knd-c-dark">
+                    <div class="swiper-slide">
+                        <div class="knd-blog-card">
+                            <div class="knd-cover knd-up">
+                                <div class="knd-hover-frame">
+                                    <img src="~/theme/v1/img/blog/9.jpg" alt="cover" class="knd-scale-img" data-value-1="1.15" data-value-2="1">
+                                </div>
+                                <div class="knd-badges">
+                                    <div class="knd-category">design</div>
+                                    <div class="knd-date">29.08.24</div>
+                                </div>
+                            </div>
+                            <a href="publication-stl.html" class="knd-descr knd-c-gone">
+                                <div class="knd-text-frame">
+                                    <h4 class="knd-head4 knd-max-2row-text knd-mb20 knd-up">How to Become a Graphic Designer in 10 Simple Steps</h4>
+                                    <p class="knd-text-md knd-max-2row-text knd-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae.</p>
+                                </div>
+                                <div class="knd-up knd-768-gone">
+                                    <div class="knd-stylized-btn">
+                                        <i class="fal fa-arrow-up"></i>
+                                        <span>Read more</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="knd-blog-card">
+                            <div class="knd-cover knd-up">
+                                <div class="knd-hover-frame">
+                                    <img src="~/theme/v1/img/blog/10.jpg" alt="cover" class="knd-scale-img" data-value-1="1.15" data-value-2="1">
+                                </div>
+                                <div class="knd-badges">
+                                    <div class="knd-category">Branding</div>
+                                    <div class="knd-date">29.08.24</div>
+                                </div>
+                            </div>
+                            <a href="publication-stl.html" class="knd-descr knd-c-gone">
+                                <div class="knd-text-frame">
+                                    <h4 class="knd-head4 knd-max-2row-text knd-mb20 knd-up">10 Essential Tools Every Graphic Designer Should Master</h4>
+                                    <p class="knd-text-md knd-max-2row-text knd-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae.</p>
+                                </div>
+                                <div class="knd-up knd-768-gone">
+                                    <div class="knd-stylized-btn">
+                                        <i class="fal fa-arrow-up"></i>
+                                        <span>Read more</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="knd-blog-card">
+                            <div class="knd-cover knd-up">
+                                <div class="knd-hover-frame">
+                                    <img src="~/theme/v1/img/blog/11.jpg" alt="cover" class="knd-scale-img" data-value-1="1.15" data-value-2="1">
+                                </div>
+                                <div class="knd-badges">
+                                    <div class="knd-category">Art</div>
+                                    <div class="knd-date">29.08.24</div>
+                                </div>
+                            </div>
+                            <a href="publication-stl.html" class="knd-descr knd-c-gone">
+                                <div class="knd-text-frame">
+                                    <h4 class="knd-head4 knd-max-2row-text knd-mb20 knd-up">From Concept to Creation: The Design Process Explained</h4>
+                                    <p class="knd-text-md knd-max-2row-text knd-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae.</p>
+                                </div>
+                                <div class="knd-up knd-768-gone">
+                                    <div class="knd-stylized-btn">
+                                        <i class="fal fa-arrow-up"></i>
+                                        <span>Read more</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="knd-blog-card">
+                            <div class="knd-cover knd-up">
+                                <div class="knd-hover-frame">
+                                    <img src="~/theme/v1/img/blog/12.jpg" alt="cover" class="knd-scale-img" data-value-1="1.15" data-value-2="1">
+                                </div>
+                                <div class="knd-badges">
+                                    <div class="knd-category">Interior</div>
+                                    <div class="knd-date">29.08.24</div>
+                                </div>
+                            </div>
+                            <a href="publication-stl.html" class="knd-descr knd-c-gone">
+                                <div class="knd-text-frame">
+                                    <h4 class="knd-head4 knd-max-2row-text knd-mb20 knd-up">The Ultimate Guide to UI/UX Design for Beginners</h4>
+                                    <p class="knd-text-md knd-max-2row-text knd-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae.</p>
+                                </div>
+                                <div class="knd-up knd-768-gone">
+                                    <div class="knd-stylized-btn">
+                                        <i class="fal fa-arrow-up"></i>
+                                        <span>Read more</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> *@
+    <!-- blog end -->
+
+    <!-- subscribe -->
+    <div class="container">
+        <div class="knd-half-container knd-stl knd-reverse knd-up">
+            <div class="knd-text-box knd-g-m4 knd-p-160-160">
+                <p class="knd-stylized knd-m2 knd-mb60 knd-up">Send Your Thoughts</p>
+                <h2 class="knd-display3 knd-rubber knd-mb60 knd-up">Get in touch & <span class="knd-a2">FEEL CEYL0N Heritage Taste.</span></h2>
+                <form class="knd-subscribe-form knd-up knd-c-gone">
+                    <input type="text" placeholder="Enter your email">
+                    <button type="submit"><i class="fal fa-arrow-right"></i></button>
+                </form>
+            </div>
+            <div class="knd-image-box">
+                <div class="knd-image-frame">
+                    <!-- image background<img src="img/home-4/2.jpg" alt="img" class="knd-scale-img" data-value-1="1.20" data-value-2="1">-->
+                    <img src="~/theme/v1/img/shapes/Spices.jpg" alt="img" class="knd-scale-img" data-value-1="1.20" data-value-2="1">
+                    <div class="knd-overlay"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row knd-aic knd-jcb knd-no-g">
+            <div class="col-lg-6">
+                <div class="knd-button-pad knd-a1 knd-jst" style="display: block"></div>
+            </div>
+            <div class="col-lg-6 knd-992-gone">
+                <div class="knd-text-pad">
+                    <p class="knd-text-sm knd-up">By clicking the submit button, you agree to the <br><a href="contact-stl.html" class="knd-text-link knd-a2 knd-c-gone">rules for processing personal data</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- subscribe end -->
+
+    @Html.RenderAction("Footer", "KandyCrownHome", new { Area = "" })
+
+</div>
+<!-- content -->
